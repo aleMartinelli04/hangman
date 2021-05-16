@@ -64,15 +64,6 @@ const string HANGMEN[] = {
                 "  |   |\n"
                 "  O   |\n"
                 " /|\\  |\n"
-                " /    |\n"
-                "      |\n"
-                "========="
-        ),
-        (
-                "  +---+\n"
-                "  |   |\n"
-                "  O   |\n"
-                " /|\\  |\n"
                 " / \\  |\n"
                 "      |\n"
                 "========="
@@ -81,7 +72,6 @@ const string HANGMEN[] = {
 
 // stampa la parola
 void printWord(const string &word) {
-
     cout << HANGMEN[errors] << endl;
 
     for (char c : word) {
